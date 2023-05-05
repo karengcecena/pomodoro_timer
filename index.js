@@ -24,7 +24,7 @@ function startTimer() {
     alert("Please select a timer duration.");
     return;
   }
-  let startSound = new Audio("button-sound.mp3");
+  let startSound = new Audio("media/sounds/button-sound.mp3");
   startSound.play();
   startTime = new Date().getTime();
   timerInterval = setInterval(updateTimer, 250);
@@ -44,7 +44,7 @@ function updateTimer() {
 
   if (remainingSeconds <= 0) {
     clearInterval(timerInterval);
-    let alertSound = new Audio("break.mp3");
+    let alertSound = new Audio("media/sounds/break.mp3");
     alertSound.play();
     alert("Time's up!");
     seconds = 0;
