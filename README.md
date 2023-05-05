@@ -2,7 +2,7 @@
 
 ## 📖 Summary 
 
-**Pomodoro Timer** is a handy timer tool to study using the pomodoro technique. To read more about the study benefits of pomodoro, [click here](https://www.lucidchart.com/blog/5-reasons-to-use-the-pomodoro-technique-at-work).
+**Pomodoro Timer** is a useful tool for studying and applying the Pomodoro Technique.. To read more about the study benefits of pomodoro, [click here](https://www.lucidchart.com/blog/5-reasons-to-use-the-pomodoro-technique-at-work).
 
 ## 📋 Content
 * [Deployment](#deployment)
