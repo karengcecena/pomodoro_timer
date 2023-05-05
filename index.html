@@ -15,12 +15,17 @@
 <body>
     <div class="parent">
         <div class="child">
-            <button class="timer-btn" onclick="setDuration(1500)">Pomodoro</button>
-            <button class="timer-btn" onclick="setDuration(300)">Short Break</button>
-            <button class="timer-btn" onclick="setDuration(900)">Long Break</button>
+            <div>
+                <button class="timer-btn" onclick="setDuration(1500)">Pomodoro</button>
+                <button class="timer-btn" onclick="setDuration(300)">Short Break</button>
+                <button class="timer-btn" onclick="setDuration(900)">Long Break</button>
+            </div>
 
-            <div id="timer">00:00</div>   
-            <button class="start-btn" onclick="startTimer()">START</button>   
+            <div id="timer">00:00</div>
+            
+            <div>   
+                <button class="start-btn" onclick="startTimer()">START</button>   
+            </div>
         </div>
     </div>
     
