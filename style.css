@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(67, 118, 84);
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+button {
+    color: white;
+    background-color: transparent;
+    border-radius: 5%;
+    border-color: transparent;
+    font-size: medium;
+    padding: 2%;
+}
+
+.timer-btn.active {
+    border-color: white;
+  }
+
+.start-btn{
+    background-color: white;
+    border-radius: 5%;
+    color: rgb(73, 154, 100);
+    font-size: 25px;
+    padding: 3%;
+    min-width: 200px;
+}
+
+#timer {
+    font-size: 250px;
+    color: black;
+    padding: 5%;
+}
+
+@media (max-width: 767px) {
+    #timer {
+      font-size: 170px;
+    }
+  }
