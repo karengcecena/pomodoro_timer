@@ -34,6 +34,6 @@ Pomodoro Timer was created by Karen G. Cecena. Learn more about the developer on
 
 ## 🔍 <a name="features"></a>Features
 
-![alt text](https://github.com/karengcecena/pomodoro_timer/blob/main/media/img/pomodoro_tutorial.gif "Pomodoro Tutorial")
+![alt text](https://github.com/karengcecena/pomodoro_timer/blob/main/media/img/pomodoro_tutorial2.gif "Pomodoro Tutorial")
 
 A user can either start a pomodoro, short break, or long break timer. When the start button is clicked, the timer runs down. When it reaches 00:00, the user will be alerted via a pop-up and an alarm sound. 
