@@ -35,7 +35,8 @@ button {
 #timer {
     font-size: 250px;
     color: black;
-    padding: 5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.55%;
 }
 
 @media (max-width: 767px) {
